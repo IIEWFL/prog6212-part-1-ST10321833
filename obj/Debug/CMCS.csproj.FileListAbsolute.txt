@@ -1,0 +1,16 @@
+C:\Users\lab_services_student\source\repos\CMCS\bin\Debug\CMCS.exe.config
+C:\Users\lab_services_student\source\repos\CMCS\bin\Debug\CMCS.exe
+C:\Users\lab_services_student\source\repos\CMCS\bin\Debug\CMCS.pdb
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\CMCS.csproj.AssemblyReference.cache
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\MainWindow.baml
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\SubmitClaimWindow.baml
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\MainWindow.g.cs
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\SubmitClaimWindow.g.cs
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\App.g.cs
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\CMCS_MarkupCompile.cache
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\CMCS.g.resources
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\CMCS.Properties.Resources.resources
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\CMCS.csproj.GenerateResource.cache
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\CMCS.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\CMCS.exe
+C:\Users\lab_services_student\source\repos\CMCS\obj\Debug\CMCS.pdb

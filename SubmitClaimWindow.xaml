@@ -1,0 +1,80 @@
+﻿<Window x:Class="CMCS.SubmitClaimWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Submit New Claim" Height="300" Width="400"
+        Background="Black">
+    <!-- Set a solid background color -->
+
+    <!-- Define window-wide resources (like CSS classes in web development) -->
+    <Window.Resources>
+
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#ff00ff"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="#ff00ff"/>
+        </Style>
+
+
+        <Style TargetType="Button">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Background" Value="#800080"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+
+        <Style TargetType="DatePicker">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <TextBlock Text="Submit New Claim" 
+                   HorizontalAlignment="Center" 
+                   Margin="10" />
+
+
+        <Label Content="Date" 
+               HorizontalAlignment="Left" 
+               VerticalAlignment="Top" 
+               Margin="30,62,0,0"/>
+
+        <DatePicker HorizontalAlignment="Left" 
+                    VerticalAlignment="Top" 
+                    Margin="158,62,0,0"/>
+
+        <Label Content="Hours Worked" 
+               HorizontalAlignment="Left" 
+               VerticalAlignment="Top" 
+               Margin="30,161,0,0"/>
+
+        <TextBox HorizontalAlignment="Left" 
+                 VerticalAlignment="Top" 
+                 Width="200" 
+                 Margin="158,161,0,0"/>
+
+        <Button Content="Submit Claim" 
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Bottom" 
+                Width="120" 
+                Margin="0,0,30,20"/>
+    </Grid>
+</Window>
